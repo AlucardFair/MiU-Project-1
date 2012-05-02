@@ -24,24 +24,34 @@
 		<header>
 			<!-- Index Title -->
 			<h1>Body Health & Fitness</h1>
-			<!-- App Description -->
-			<p><medium><strong>...Helping you schedule your workouts</strong></medium></p>
+			<div id="search">
+				<input type="text" id="searchbox" placeholder="Workout Search" />
+				<a href="#"><input type="button" value="Search"/></a>
+			</div>
 		</header>
 		<!-- Start Fieldset & Legend -->
-		<fieldset>
-			<legend>Workouts</legend>
-				<ul>
-					<!-- Submit / Add New Workout -->
-					<a href="additem.html"><input type="submit" value="Add New Workout!" /></a>
-					<!-- Area Title -->
-					<h2>Workouts that needed to be completed.</h2>
-					<!-- Small Layout Description -->
-					<li>It appears you don't have any workouts. But if you did, they would be right here.</li>
-					<!-- Example Layout / Disabled -->
-					<li>Example<a href=""><input type="submit" value="View Workout" disabled /></a></li>
-				</ul>
-		<!-- End Fieldset -->
-		</fieldset>
+		<div id="home">
+			<!-- Submit / Add New Workout -->
+			<!-- Old Submit <a href="additem.html"><input type="submit" value="Add New Workout!" /></a>-->
+			<!-- New Sunmit -->
+			<a href="additem.html"><img id="feature" src="Images/BHF_Feature.png" alt="Add New Workout!"/></a>
+			<!-- Old Layout -->
+			<!-- Area Title -->
+			<!--<h2>Workouts that needed to be completed.</h2>-->
+			<!-- Small Layout Description -->
+			<!--It appears you don't have any workouts. But if you did, they would be right here.-->
+			<!-- Example Layout / Disabled -->
+			<!--Example<a href=""><input type="submit" value="View Workout" disabled /></a>-->
+			<!-- New Layout -->
+			<div>
+				<div id="browse">Browse by Category</div>
+				<a href="#" id="agility">Agility</a>
+				<a href="#" id="cardio">Cardio</a>
+				<a href="#" id="flexibility">Flexibility</a>
+				<a href="#" id="strength">Strength</a>
+				<a href="#" id="tone">Tone</a>
+			</div>
+		</div>
 	<!-- Small Details that are not important enough to be in the main section -->
 	<footer id="foot">
 		<small>Coded by Zachery Hernandez</small>

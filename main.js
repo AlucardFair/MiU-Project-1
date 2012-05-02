@@ -8,7 +8,7 @@ https://github.com/AlucardFair/VFW-Project-4
 */
 // Wait until DOM is ready //
 window.addEventListener("DOMContentLoaded", function() {
-
+	
 	// getElementById function //
 	function $(x) {
 		var elementID = document.getElementById(x);
@@ -306,7 +306,7 @@ window.addEventListener("DOMContentLoaded", function() {
 	};
 	
 	// Variable defaults //
-	var workoutTypes = ["*Choose A Style*", "Cardio", "Strength", "Tone"],
+	var workoutTypes = ["*Choose A Style*", "Agility", "Cardio", "Flexibility", "Strength", "Tone"],
 		favoriteValue = "No",
 		timeValue,
 		confirmClear,
