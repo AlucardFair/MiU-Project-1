@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- Zachery Hernandez -->
-<!-- VFW 1203 -->
-<!-- Project 4 -->
-<!-- 4/26/2012 -->
+<!-- VFW 1205 -->
+<!-- Project 1 -->
+<!-- 5/3/2012 -->
 <!-- Body Health & Fitness -->
-<!-- https://github.com/AlucardFair/VFW-Project-4 -->
+<!-- https://github.com/AlucardFair/MiU-Project-1 -->
 <!-- Start of HTML Doc -->
 <html>
 	<head>
@@ -23,7 +23,7 @@
 	<body>
 		<header>
 			<!-- Index Title -->
-			<h1>Body Health & Fitness</h1>
+			<a href="index.html" id="failSafe"><h1>Body Health & Fitness</h1></a>
 			<div id="search">
 				<input type="text" id="searchbox" placeholder="Workout Search" />
 				<a href="#" id="searchButton">Search</a>
@@ -46,24 +46,24 @@
 			<div>
 				<div id="browse">Browse by Category</div>
 				<a href="#" id="agility">Agility</a>
-					<ul id="" style="display:none;">
-						<li></li>
+					<ul id="browseList" style="display:none;">
+						<li name="detailList"></li>
 					</ul>
 				<a href="#" id="cardio">Cardio</a>
-					<ul id="" style="display:none;">
-						<li></li>
+					<ul id="cardioList" style="display:none;">
+						<li name="detailList"></li>
 					</ul>
 				<a href="#" id="flexibility">Flexibility</a>
-					<ul id="" style="display:none;">
-						<li></li>
-					</ul id="" style="display:none;">
-				<a href="#" id="strength">Strength</a>
-					<ul id="" style="display:none;">
-						<li></li>
+					<ul id="flexibilityList" style="display:none;">
+						<li name="detailList"></li>
 					</ul>
-				<a href="#" id="tone">Tone</a>
-					<ul id="" style="display:none;">
-						<li></li>
+				<a href="#" id="strength">Strength</a>
+					<ul id="strengthList" style="display:none;">
+						<li name="detailList"></li>
+					</ul>
+				<a href="#" id="tone" onClickEvent="ul.style.display:block;"">Tone</a>
+					<ul id="toneList" style="display:none;">
+						<li name="detailList"></li>
 					</ul>
 			</div>
 		</div>

@@ -1,3 +1,13 @@
+/*
+Zachery Hernandez
+VFW 1205
+Project 1
+5/3/2012
+Body Health & Fitness
+https://github.com/AlucardFair/MiU-Project-1
+*/
+
+/*Dummy Data*/
 var json = {
 	"workout1": {
 		"training": ["Training Style: ", "Cardio"],

@@ -1,12 +1,12 @@
 /*
 Zachery Hernandez
-VFW 1203
-Project 4
-4/26/2012
+VFW 1205
+Project 1
+5/3/2012
 Body Health & Fitness
-https://github.com/AlucardFair/VFW-Project-4
+https://github.com/AlucardFair/MiU-Project-1
 */
-body {
+body /*Formerly HTML*/ {
 	font-family: Helvetica, Roboto, Droid-Sans;
 	background-color: rgb(200,200,200);
 	margin: 0 auto;
@@ -53,7 +53,6 @@ body {
 }
 
 #agility, #cardio, #flexibility, #strength, #tone {
-	text-decoration: none;
 	color: white;
 	display: block;
 	padding: 4px;
@@ -66,16 +65,15 @@ body {
 
 #searchButton, #showData, #clearData, #startNew, #editButton, #deleteButton, #saveData {
 	font-size: 12px;
-	text-decoration: none;
 	color: white;
-	background-image: -webkit-linear-gradient(bottom, rgb(255,86,0), rgb(255,126,0), rgb(255,166,0));
+	background-image: -webkit-linear-gradient(bottom, rgb(147,84,22), rgb(199,136,74), rgb(250,187,25));
 	padding: 0px 7px 0px 7px;
 	margin-right: 10px;
 	border-style: solid;
-	border-width: 1px;
+	border-width: .1px;
 	border-radius: 10px;
-	border-color: rgb(255,126,0);
-	-webkit-box-shadow: 0px 4px 4px -2px #000;
+	border-color: rgb(147,84,22);
+	-webkit-box-shadow: 0px 4px 4px -3px #000;
 }
 
 nav {
@@ -96,6 +94,10 @@ h1 {
 	width: 99%;
 	background-image: -webkit-linear-gradient(bottom, rgb(0,128,136), rgb(0,148,156), rgb(0,168,176));
 	-webkit-box-shadow: 0 0 5px black;
+}
+
+a {
+	text-decoration: none;
 }
 
 p {

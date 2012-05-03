@@ -1,10 +1,10 @@
 /*
 Zachery Hernandez
-VFW 1203
-Project 4
-4/26/2012
+VFW 1205
+Project 1
+5/3/2012
 Body Health & Fitness
-https://github.com/AlucardFair/VFW-Project-4
+https://github.com/AlucardFair/MiU-Project-1
 */
 // Wait until DOM is ready //
 window.addEventListener("DOMContentLoaded", function() {
@@ -141,7 +141,7 @@ window.addEventListener("DOMContentLoaded", function() {
 		var imageLi = document.createElement('li');
 		makeSubList.appendChild(imageLi);
 		var newImage = document.createElement('img');
-		var setSrc = newImage.setAttribute("src", "images/" + imgName + ".png");
+		var setSrc = newImage.setAttribute("src", "Images/" + imgName + ".png");
 		newImage.style.paddingTop = "10px";
 		imageLi.appendChild(newImage);
 	};
