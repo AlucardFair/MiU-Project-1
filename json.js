@@ -16,7 +16,7 @@ var json = {
 		"timeofday": ["Preferred Time: ", "Morning"],
 		"completiondate": ["Completion Date: ", "2012-4-26"],
 		"comments": ["Self-Motivation: ", "OH YEAH!!!"]
-	}
+	},
 	"workout3": {
 		"training": ["Training Style: ", "Agility"],
 		"wname": ["Workout Name: ", "Squat Thrusts"],
@@ -178,5 +178,5 @@ var json = {
 		"timeofday": ["Preferred Time: ", "Afternoon"],
 		"completiondate": ["Completion Date: ", "2012-5-6"],
 		"comments": ["Self-Motivation: ", "Time to cool off!"]
-	},
+	}
 };
